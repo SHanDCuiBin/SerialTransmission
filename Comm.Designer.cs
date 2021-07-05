@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Comm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.com_jyw = new System.Windows.Forms.ComboBox();
             this.lbl_jyw = new System.Windows.Forms.Label();
@@ -505,7 +504,8 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Comm";
             this.Text = "串口通讯助手";
             this.Load += new System.EventHandler(this.Comm_Load);
