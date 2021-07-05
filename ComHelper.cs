@@ -290,10 +290,5 @@ namespace SerialTransmission
             }
             return strData.ToString();
         }
-
-        public static void WriteLog(string FileName)
-        {
-
-        }
     }
 }
