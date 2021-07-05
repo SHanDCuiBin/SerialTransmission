@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BC15A17C-D762-49FA-B653-0E2826528FDB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MSComm</RootNamespace>
-    <AssemblyName>MSComm</AssemblyName>
+    <RootNamespace>SerialTransmission</RootNamespace>
+    <AssemblyName>SerialTransmission</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

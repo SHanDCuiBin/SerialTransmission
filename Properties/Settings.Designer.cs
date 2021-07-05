@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MSComm.Properties {
+namespace SerialTransmission.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
